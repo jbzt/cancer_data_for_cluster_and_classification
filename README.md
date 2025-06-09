@@ -60,6 +60,8 @@ For students of biology and data science, the TCGA Pan-Cancer datasets offer a c
 
 # Classification Using the TCGA-PRAD Dataset
 
+[Classification using TCGA prostate cancer data](https://colab.research.google.com/drive/1xvEx4HmTgY17qLDxTlPuqmf7LDvAAuS1?usp=sharing)
+
 Prostate adenocarcinoma (PRAD) is one of the most prevalent cancers in men worldwide and presents a major clinical challenge due to its heterogeneous clinical course, which ranges from indolent, slow-growing tumors to aggressive, metastatic disease. The TCGA-PRAD dataset, part of The Cancer Genome Atlas initiative, provides a comprehensive molecular and clinical characterization of primary prostate tumors. This dataset includes genomic, transcriptomic, epigenomic, and proteomic profiles for nearly 500 patients, enabling deep investigation into the disease's biology.
 
 The TCGA-PRAD project has fueled significant advances in understanding prostate cancer subtypes by identifying key genomic alterations such as *TMPRSS2-ERG* gene fusions, *PTEN* loss, and mutations in *SPOP* and *IDH1*. These molecular features complement traditional clinicopathological parameters and provide critical insights into tumor aggressiveness and progression [1,2].
