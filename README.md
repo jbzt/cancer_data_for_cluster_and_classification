@@ -74,3 +74,24 @@ The rich integration of molecular and clinical data in the TCGA-PRAD dataset pro
 2.  Armenia, J., et al. (2018). The long tail of oncogenic drivers in prostate cancer. *Nature Genetics*, 50(5), 645–651. https://doi.org/10.1038/s41588-018-0078-z
 3.  Epstein, J. I., et al. (2016). The 2014 ISUP Gleason Grading System: Definition and Implications. *European Urology*, 69(3), 428–435. https://doi.org/10.1016/j.eururo.2015.06.046
 4.  Ross-Adams, H., et al. (2015). Integration of copy number and transcriptomics provides risk stratification in prostate cancer: A discovery and validation cohort study. *EBioMedicine*, 2(9), 1133–1144. https://doi.org/10.1016/j.ebiom.2015.07.017
+
+## About the Data
+
+The transcriptomic and clinical data used in this project are available in the [`/data`](./data) folder of this repository.
+
+As the focus of this module is on clustering and classification methods, we will work directly with a preprocessed version of the dataset. The data have already been downloaded, curated, and cleaned. This includes:
+
+- Quality control and removal of outliers
+- Consistent formatting of clinical variables (e.g., conversion to factors where appropriate)
+- Selection of high-variance genes for dimensionality reduction
+
+The following files are provided:
+
+- **`feno.RDS`**: Contains all available clinical and phenotypic information for each patient in the dataset.
+- **`exp.RDS`**: Gene expression matrix (RNA-Seq data) for all genes and all patients in the TCGA prostate cancer cohort.
+- **`exp_top.RDS`**: A subset of the expression matrix, including only the top most variable genes across patients. This reduced dataset is useful for analyses that require fewer features, such as clustering or classification with limited computational resources.
+
+These prepared files are ready to be used in downstream machine learning analyses.
+
+## how this data was created?
+You can visit [this page](https://rpubs.com/jbzt/914994) to learn more about how this dataset was downloaded and processed (draft in spanish)
