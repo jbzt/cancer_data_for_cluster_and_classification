@@ -30,7 +30,7 @@ Today, TCGA remains an invaluable resource for the global scientific community. 
 
 ---
 
-# Pan-Cancer Analysis in TCGA
+# Pan-Cancer Clustering Analysis in TCGA
 
 The Pan-Cancer initiative within The Cancer Genome Atlas (TCGA) project represents a paradigm shift in understanding cancer, moving beyond traditional tissue-of-origin classifications. Instead of treating each cancer as a distinct disease, the Pan-Cancer approach integrates multi-omic data across a wide array of tumor types to reveal shared molecular characteristics and unifying biological principles.
 
